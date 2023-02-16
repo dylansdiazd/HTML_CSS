@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+body {
+    margin: 0;
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+
+}
+
+.banner {
+    background-image: url(assets/images/banner.png), linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6));
+    border-bottom: solid 1px #31A8DD;
+    padding: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.banner h1 {
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(#33A8DB, #1472B7);
+}
+
+header button {
+    -webkit-background-clip: text;
+    background-image: linear-gradient(#33A8DB, #1472B7);
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    text-transform: uppercase;
+    color: transparent;
+    border-image-slice: 10;
+    font-weight: bolder;
+    padding: 10px 25px 10px 25px;
+}
+
+
+h2 {
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(#33A8DB, #1472B7);
+}
+
+#course-content p {
+    font-size: 12px;
+}
+
+.modules-list {
+    padding: 40px;
+}
+
+span {
+    color: #33A8DB;
+}
+
+.module {
+    border: solid 1px #33A8DB;
+    border-radius: 300px;
+    background-color: #252525;
+    text-align: center;
+    margin-bottom: 12px;
+    padding: 10px 10px 10px 10px;
+
+}
+
+#transform-world {
+    border: solid 1px #33A8DB;
+    background-image: url(assets/images/woman-code.png);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+}
+
+#transform-world p {
+    width: 244px;
+    height: 141px;
+    left: 190px;
+    top: 880px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #FFFFFF;
+
+    text-shadow: 3px 2px 0px #33A8DB;
+}
+
+footer {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6));
+}
+
+a {
+    color: #33A8DB;
+    text-decoration: none;
+    font-weight: bold;
+}
