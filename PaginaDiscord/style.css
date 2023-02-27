@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background: url(img/Header\ Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding-top: 80px;
+    padding: 40px;
+
+}
+
+
+
+h1 {
+    font-family: 'Luckiest Guy';
+    font-weight: 400;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+.text-header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Open Sans';
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+.download {
+    width: 205px;
+    height: 44px;
+    background: #FFFFFF;
+    border-radius: 28px;
+    margin: 20px;
+}
+
+.open {
+    width: 281px;
+    height: 44px;
+    background: #23272A;
+    border-radius: 28px;
+    color: white;
+
+}
+
+.item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+        ". img h2 ."
+        ". img p .";
+    align-items: center;
+}
+
+.item2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+        ". h2 img ."
+        ". p img .";
+    align-items: center;
+    background-color: #f6f6f6;
+}
+
+img {
+    max-width: 100%;
+}
+
+.img-section {
+    grid-area: img;
+}
+
+h2 {
+    grid-area: h2;
+    font-family: 'Open Sans';
+    color: #23272A;
+}
+
+.p-section {
+    grid-area: p;
+    font-family: 'Open Sans';
+    color: #23272A;
+}
+
+footer {
+    position: relative;
+}
+
+.img-footer {
+    position: absolute;
+    width: 100%;
+}
+
+.item3 {
+    padding-top: 80px;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+
+.text-end {
+    padding: 25px;
+    font-family: 'Luckiest Guy';
+    text-align: center;
+    color: #23272A;
+}
+
+.p-end {
+    padding: 25px;
+    font-family: 'Open Sans';
+    text-align: center;
+    color: #23272A;
+}
+
+@media screen and (max-width: 600px) {
+
+    .item {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+            "img"
+            "h2"
+            "p";
+        align-items: center;
+        padding: 25px;
+        text-align: center;
+    }
+
+    .item2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+            "h2"
+            "p"
+            "img";
+        align-items: center;
+        background-color: #f6f6f6;
+        padding: 25px;
+        text-align: center;
+    }
+
+}
