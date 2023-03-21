@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    max-width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 350px;
+    height: auto;
+    margin-bottom: 1rem;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid lightgrey;
+}
+
+.login .user .logo {
+    max-width: 300px;
+    height: auto;
+}
+
+.login .user .photo {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+.login .user .button {
+    color: #fff;
+    background-color: #4cb5f9;
+    margin: 1rem;
+    padding: .3rem;
+    border-radius: 0.2rem;
+}
+
+.login .user .blue-text {
+    color: #4cb5f9;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.switch {
+    max-width: 350px;
+    height: auto;
+    border: 1px solid lightgrey;
+}
+
+.gray-text{
+    color: #7b7b7b;
+}
+
+.download{
+    display: flex;
+    flex-direction: row;
+    max-width: 350px;
+    height: auto;
+}
+
+.store{
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+span {
+    color: #4cb5f9;
+}
